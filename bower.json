@@ -1,0 +1,24 @@
+{
+  "name": "FirstProject",
+  "authors": [
+    "Jakob Horner <jakobh7@aol.com>"
+  ],
+  "description": "FocalCastTest",
+  "main": "index.html",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6"
+  }
+}

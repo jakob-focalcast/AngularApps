@@ -1,0 +1,22 @@
+.Body{
+  height: inherit;
+  width: inherit;
+  height: 90%;
+}
+.Header{
+  height: 
+  text-align: center;
+}
+
+#left-col{
+  float:left;
+  background-color: black;
+  height: 100%;
+  width: 66%;
+}
+#right-col{
+  float:right;
+  background-color: grey;
+  height: 100%;
+  width: 33%;
+}
