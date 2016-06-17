@@ -3,26 +3,20 @@
   <head>
     <script src="/bower_components/angular/angular.js"></script>
     <script src="calculator.js"></script>
+    <script src="sumsList.js"></script>
     <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div class="Header">
+    <div class="Headline">
       <h1>Sup</h1>
     </div>
     <div class="Body">
-      <div class="row" ng-controller="CalculatorController">
-        <div class="col-sm-9">
-          <input type="number" ng-model="num1"></input>
-          <button>+</button>
-          <input type="number" ng-model="num2"></input>
-          <button ng-click="add(num1,num2)">=</button>
-        </div>
-        <div class="col-sm-3">
-          <header>Sums</header>
-          <ul>
-            <li ng-repeat="num in sums">{{num}}</li>
-          </ul>
-        </div>
+      <div class="row">
+        <calculator-directive>
+        </calculator-directive>
+        <list-directive>
+        </list-directive>
       </div>
     </div>
   </body>
